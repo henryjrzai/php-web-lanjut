@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.input-data {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.input-data form {
+  padding: 20px;
+  background: rgba(95, 111, 148, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14.3px);
+  margin: auto;
+}
+
+.input-data table {
+  line-height: 30px;
+}
+
+.input-data table input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-data table select {
+  padding: 5px;
+}
+
+.input-data input[type=submit] {
+  background-color: #253160;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.input-data input[type=submit]:hover{
+  background-color: #5F6F94;
+  font-weight: bold;
+}
+
+.input-data input[type=reset] {
+  background-color: #777;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.input-data input[type=reset]:hover{
+  background-color: red;
+  font-weight: bold;
+}
